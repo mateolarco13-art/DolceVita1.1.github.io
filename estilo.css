@@ -577,8 +577,29 @@ gap:15px;
 }
 
 @media (max-width: 768px){
+	   /* Evita que las imágenes se salgan de la pantalla y rompan el diseño */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Si usaste anchos fijos en tus contenedores (ej. 1000px), 
+       esto los obligará a ajustarse al ancho del celular */
+    div, section, article, main, .contenedor { 
+        width: 100% !important;
+        max-width: 100% !important;
+        float: none !important; /* Por si usaste floats antiguos */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* Ajusta el tamaño de letra si sientes que se ve muy grande en celular */
+    h1 { font-size: 1.8rem; }
+    p { font-size: 1rem; }
+}
 
     .menu-toggle{
+		display: none;
         display: block;
         font-size: 28px;
         color: white;
@@ -619,7 +640,4 @@ gap:15px;
         padding: 10px 0;
     }
 
-}
-.menu-toggle{
-    display: none;
 }

@@ -1,17 +1,17 @@
-/* Reset básico */
+/* Reset bÃ¡sico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Barra de navegación */
+/* Barra de navegaciÃ³n */
 .navbar {
     position: fixed; /* Se mantiene arriba */
     top: 0;
     width: 100%;
     height: 80px;
-    background-color: #3b2a1a; /* Café oscuro tipo grano */
+    background-color: #3b2a1a; /* CafÃ© oscuro tipo grano */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,18 +22,18 @@
 .nombre {
     color: white;
     font-family: "Mistral", cursive;
-    font-size: 42px; /* Tamaño aumentado */
+    font-size: 42px; /* TamaÃ±o aumentado */
     font-weight: normal;
     flex: 1;
     text-align: center;
-    white-space: nowrap; /* Evita que se baje de línea */
+    white-space: nowrap; /* Evita que se baje de lÃ­nea */
 }
 /* Logo */
 .logo img {
     height: 60px;
 }
 
-/* Menú */
+/* MenÃº */
 .menu {
     list-style: none;
     display: flex;
@@ -52,7 +52,7 @@
     transition: 0.3s;
     display: inline-block;
     text-align: center;
-    width: 120px; /* Todos del mismo tamaño */
+    width: 120px; /* Todos del mismo tamaÃ±o */
 }
 
 /* Efecto hover */
@@ -105,7 +105,7 @@
     animation-delay: 10s;
 }
 
-/* Animación */
+/* AnimaciÃ³n */
 @keyframes cambiarImagen {
     0% { opacity: 0; }
     5% { opacity: 1; }
@@ -113,7 +113,7 @@
     35% { opacity: 0; }
     100% { opacity: 0; }
 }
-/* Sección centrada */
+/* SecciÃ³n centrada */
 .hero-central {
     height: 90vh;
     display: flex;
@@ -140,9 +140,9 @@
     margin-bottom: 40px;
 }
 
-/* Botón */
+/* BotÃ³n */
 .btn-ver {
-    background-color: #c46a2d; /* Naranja tirando a café */
+    background-color: #c46a2d; /* Naranja tirando a cafÃ© */
     color: white;
     padding: 18px 45px;
     font-size: 20px;
@@ -185,7 +185,7 @@
 .contacto-item p {
     font-size: 15px;
 }
-/* Página Nosotros */
+/* PÃ¡gina Nosotros */
 .pagina-nosotros {
     padding: 140px 60px 60px 60px; /* espacio por navbar fija */
 }
@@ -199,7 +199,7 @@
     gap: 40px;
 }
 
-/* Alternar posición */
+/* Alternar posiciÃ³n */
 .seccion.derecha {
     flex-direction: row-reverse;
 }
@@ -232,7 +232,7 @@
     align-items: center;
     justify-content: center;
 }
-/* Fondo especial página Nosotros */
+/* Fondo especial pÃ¡gina Nosotros */
 .pagina-nosotros {
     background-color: #c2a98d;
     padding: 140px 60px 80px 60px; /* espacio por navbar fija */
@@ -325,7 +325,7 @@ padding-top:120px;
 }
 
 
-/* presentación */
+/* presentaciÃ³n */
 
 .presentacion{
 text-align:center;
@@ -379,7 +379,7 @@ text-align:center;
 width:150px;
 height:150px;
 
-border-radius:50%; /* hace el círculo */
+border-radius:50%; /* hace el cÃ­rculo */
 
 overflow:hidden;
 
@@ -395,7 +395,7 @@ justify-content:center;
 }
 
 
-/* botón */
+/* botÃ³n */
 
 .btn-comprar{
 
@@ -405,7 +405,7 @@ text-decoration:none;
 
 background-color:#c46a2b; /* naranja */
 
-border:2px solid #3b2a1a; /* borde café oscuro */
+border:2px solid #3b2a1a; /* borde cafÃ© oscuro */
 
 color:white;
 
@@ -485,7 +485,7 @@ background-color:#c46a2b;
 
 }
 
-/* Número */
+/* NÃºmero */
 
 .cantidad{
 
@@ -500,7 +500,7 @@ min-width:20px;
 text-align:center;
 
 }
-/* FORZAR BOTÓN CARRITO */
+/* FORZAR BOTÃ“N CARRITO */
 
 .menu .btn-carrito{
 
@@ -600,16 +600,16 @@ gap:15px;
         margin-top: 40px;
     }
 
-    /* MENÚ OCULTO */
+    /* MENÃš OCULTO */
     .menu{
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #3e2723; /* mismo café */
+        background-color: #3e2723; /* mismo cafÃ© */
         margin-top: 10px;
     }
 
-    /* MENÚ CUANDO SE ABRE */
+    /* MENÃš CUANDO SE ABRE */
     .menu.active{
         display: flex;
     }
@@ -619,4 +619,7 @@ gap:15px;
         padding: 10px 0;
     }
 
+}
+.menu-toggle{
+    display: none;
 }
